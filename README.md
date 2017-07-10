@@ -1,4 +1,6 @@
 # react-app-rewire-emotion
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/osdevisnot/react-app-rewire-emotion.svg)](https://greenkeeper.io/)
 Add emotion/babel babel plugin to create-react-app using react-app-rewired
 
 Add the `emotion/babel` to `create-react-app` app via [react-app-rewired](https://github.com/timarney/react-app-rewired)
