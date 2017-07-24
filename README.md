@@ -16,9 +16,19 @@ const rewireEmotion = require('react-app-rewire-emotion');
 
 /* config-overrides.js */
 module.exports = function override(config, env) {
-  config = rewireEmotion(config, env, { inline: false ...});
-  return config;
+  return rewireEmotion(config, env, { inline: process.env.NODE_ENV !== 'production' ...});
 }
+```
+
+## Usage with Storybook
+When using `@storybooks/storybook` with CRA via `getstorybook`, create a `webpack.config.js` file in `.storybook` folder and add this code:
+
+```
+const rewireEmotion = require('react-app-rewire-emotion');
+
+module.exports = function override(config, env) {
+  return rewireEmotion(config, env, { inline: process.env.NODE_ENV !== 'production' ...});
+};
 ```
 
 ## Inspirations
