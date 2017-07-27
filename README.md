@@ -16,7 +16,7 @@ const rewireEmotion = require('react-app-rewire-emotion');
 
 /* config-overrides.js */
 module.exports = function override(config, env) {
-  return rewireEmotion(config, env, { inline: process.env.NODE_ENV !== 'production' ...});
+  return rewireEmotion(config, env, { inline: true });
 }
 ```
 
@@ -27,7 +27,7 @@ When using `@storybooks/storybook` with CRA via `getstorybook`, create a `webpac
 const rewireEmotion = require('react-app-rewire-emotion');
 
 module.exports = function override(config, env) {
-  return rewireEmotion(config, env, { inline: process.env.NODE_ENV !== 'production' ...});
+  return rewireEmotion(config, env, { inline: true });
 };
 ```
 
