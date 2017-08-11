@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-lodash",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/osdevisnot/react-app-rewire-contrib.git",
   "author": "osdevisnot <osdevisnot@gmail.com>",
