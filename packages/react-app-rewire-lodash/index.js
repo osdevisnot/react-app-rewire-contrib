@@ -1,4 +1,4 @@
-function rewireEmotion(config, env, emotionBabelOptions = {}) {
+function rewireLodash(config, env, lodashBabelOptions = {}) {
   let babelLoader;
 
   const checkRule = rule => rule.loader && rule.loader.indexOf('babel-loader') > 0;
@@ -13,11 +13,11 @@ function rewireEmotion(config, env, emotionBabelOptions = {}) {
   });
 
   if (babelLoader && babelLoader.options) {
-    babelLoader.options.plugins = (babelLoader.options.plugins || []).concat([['emotion/babel', emotionBabelOptions]]);
+    babelLoader.options.plugins = (babelLoader.options.plugins || []).concat([['lodash', lodashBabelOptions]]);
   } else if (babelLoader && babelLoader.query) {
-    babelLoader.query.plugins = (babelLoader.query.plugins || []).concat([['emotion/babel', emotionBabelOptions]]);
+    babelLoader.query.plugins = (babelLoader.query.plugins || []).concat([['lodash', lodashBabelOptions]]);
   }
   return config;
 }
 
-module.exports = rewireEmotion;
+module.exports = rewireLodash;
