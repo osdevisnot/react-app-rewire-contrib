@@ -8,7 +8,9 @@
   "scripts": {
     "presetup": "git clean -fdX",
     "setup": "yarn",
-    "postsetup": "lerna bootstrap"
+    "postsetup": "lerna bootstrap",
+    "prepub": "yarn run setup",
+    "pub": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^2.0.0"
