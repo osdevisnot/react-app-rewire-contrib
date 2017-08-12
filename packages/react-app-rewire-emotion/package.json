@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-emotion",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/osdevisnot/react-app-rewire-contrib.git",
   "author": "osdevisnot <osdevisnot@gmail.com>",
