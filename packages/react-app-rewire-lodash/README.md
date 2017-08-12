@@ -7,6 +7,10 @@ Add the `lodash` to `create-react-app` app via [react-app-rewired](https://githu
 ```
 yarn add --dev react-app-rewire-lodash
 ```
+OR
+```
+npm install --save-dev react-app-rewire-lodash
+```
 
 ## Usage
 In the `config-overrides.js` you created for `react-app-rewired` add this code:

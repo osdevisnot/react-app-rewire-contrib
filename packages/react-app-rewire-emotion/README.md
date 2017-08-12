@@ -7,6 +7,10 @@ Add the `emotion/babel` to `create-react-app` app via [react-app-rewired](https:
 ```
 yarn add --dev react-app-rewire-emotion
 ```
+OR
+```
+npm install --save-dev react-app-rewire-emotion
+```
 
 ## Usage
 In the `config-overrides.js` you created for `react-app-rewired` add this code:
