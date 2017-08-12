@@ -1,0 +1,11 @@
+{
+  "name": "react-app-rewire-lodash",
+  "version": "0.1.1",
+  "main": "index.js",
+  "repository": "https://github.com/osdevisnot/react-app-rewire-contrib.git",
+  "author": "osdevisnot <osdevisnot@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-lodash": "^3.2.11"
+  }
+}
