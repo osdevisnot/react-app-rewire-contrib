@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Lock files
+yarn.lock
+package-lock.json
+
 # Runtime data
 pids
 *.pid

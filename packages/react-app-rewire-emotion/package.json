@@ -1,8 +1,10 @@
 {
   "name": "react-app-rewire-emotion",
   "version": "1.0.0",
+  "description": "Add emotion/babel babel plugin to create-react-app using react-app-rewired",
   "main": "index.js",
   "repository": "https://github.com/osdevisnot/react-app-rewire-contrib.git",
+  "keywords": [],
   "author": "osdevisnot <osdevisnot@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
