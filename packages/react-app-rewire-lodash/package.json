@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-lodash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add lodash babel plugin to create-react-app using react-app-rewired",
   "main": "index.js",
   "repository": "https://github.com/osdevisnot/react-app-rewire-contrib.git",

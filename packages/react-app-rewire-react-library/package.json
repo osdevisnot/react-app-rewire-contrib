@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-react-library",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Use create-react-app to build react libraries",
   "main": "index.js",
   "repository": "https://github.com/osdevisnot/react-app-rewire-contrib.git",
