@@ -7,7 +7,7 @@ function rewireEmotion(config, env, emotionBabelOptions = {}) {
     if (rule.oneOf) {
       babelLoader = rule.oneOf.find(checkRule);
     } else if (checkRule(rule)) {
-      babelLoader = rule.loader;
+      babelLoader = rule;
     }
     return !babelLoader;
   });
