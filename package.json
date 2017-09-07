@@ -10,9 +10,11 @@
     "setup": "yarn",
     "postsetup": "lerna bootstrap",
     "prepub": "yarn run setup",
-    "pub": "lerna publish"
+    "pub": "lerna publish",
+    "updates": "ncu && lerna exec -- ncu"
   },
   "devDependencies": {
-    "lerna": "^2.0.0"
+    "lerna": "^2.0.0",
+    "npm-check-updates": "2.12.1"
   }
 }
