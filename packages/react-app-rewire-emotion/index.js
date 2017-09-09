@@ -1,7 +1,7 @@
 const { injectBabelPlugin } = require('react-app-rewired');
 
-function rewireEmotion(config, env) {
-  config = injectBabelPlugin('emotion/babel', config);
+function rewireEmotion(config, env, emotionBabelOptions = {}) {
+  config = injectBabelPlugin(['emotion/babel', emotionBabelOptions], config);
   return config;
 }
 
