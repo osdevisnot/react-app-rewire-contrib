@@ -12,6 +12,9 @@
     "prepub": "yarn run setup",
     "pub": "lerna publish"
   },
+  "peerDependencies": {
+    "react-app-rewired": "^1.2.7"
+  },
   "devDependencies": {
     "lerna": "^2.0.0"
   }
