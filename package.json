@@ -13,6 +13,9 @@
     "pub": "lerna publish",
     "updates": "ncu && lerna exec -- ncu"
   },
+  "peerDependencies": {
+    "react-app-rewired": "^1.2.7"
+  },
   "devDependencies": {
     "lerna": "^2.0.0",
     "npm-check-updates": "2.12.1"
