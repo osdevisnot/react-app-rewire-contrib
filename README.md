@@ -12,5 +12,8 @@ Add lodash babel plugin to create-react-app using [react-app-rewired](https://gi
 ### [react-app-rewire-react-library](packages/react-app-rewire-react-library)
 Build react libraries with create-react-app using [react-app-rewired](https://github.com/timarney/react-app-rewired)
 
+## Authors
+[osdevisnot](https://github.com/osdevisnot) and [contributors](https://github.com/osdevisnot/react-app-rewire-contrib/graphs/contributors).
+
 ## License
 Licensed under MIT License, Copyright @ 2017 osdevisnot. See [LICENSE.md](LICENSE.md) for more details.
