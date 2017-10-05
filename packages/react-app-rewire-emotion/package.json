@@ -8,6 +8,6 @@
   "author": "osdevisnot <osdevisnot@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "emotion": "^7.2.2"
+    "emotion": "^8.0.2"
   }
 }
