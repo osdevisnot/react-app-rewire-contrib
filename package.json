@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "lerna": "^2.0.0",
-    "npm-check-updates": "2.12.1"
+    "npm-check-updates": "^2.14.2"
   }
 }
