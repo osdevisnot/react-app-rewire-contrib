@@ -5,4 +5,11 @@ function rewireEmotion(config, env, emotionBabelOptions = {}) {
   return config;
 }
 
-module.exports = rewireEmotion;
+function createEmotionRewire(emotionBabelOptions) {
+  return function (config, env) {
+    return rewireEmotion(config, env, emotionBabelOptions);
+  };
+}
+
+module.exports.rewireEmotion = rewireEmotion;
+module.exports.createEmotionRewire = createEmotionRewire;

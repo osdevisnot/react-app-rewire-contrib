@@ -16,12 +16,28 @@ npm install --save-dev react-app-rewire-emotion
 In the `config-overrides.js` you created for `react-app-rewired` add this code:
 
 ```
-const rewireEmotion = require('react-app-rewire-emotion');
+const { rewireEmotion } = require('react-app-rewire-emotion');
 
 /* config-overrides.js */
 module.exports = function override(config, env) {
   return rewireEmotion(config, env, { inline: true });
 }
+```
+
+If you are using `compose` utility provided by `react-app-rewired` to add multiple rewires, use this code:
+```
+const { compose } = require('react-app-rewired');
+const { createEmotionRewire } = require('react-app-rewire-emotion');
+
+/* config-overrides.js */
+module.exports = function override(config, env) {
+  const rewires = compose(
+    createRewireForSomeOtherPlugin(),
+    // ... place more rewires
+    createEmotionRewire({ inline: true }),
+  );
+  return rewires(config, env);
+};
 ```
 
 ## Usage with Storybook
