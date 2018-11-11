@@ -34,7 +34,7 @@ module.exports = function override(config, env) {
   const rewires = compose(
     createRewireForSomeOtherPlugin(),
     // ... place more rewires
-    createEmotionRewire({ inline: true }),
+    createEmotionRewire({ autoLabel: true }),
   );
   return rewires(config, env);
 };
